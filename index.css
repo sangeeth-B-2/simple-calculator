@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+    background-color: #0a2351;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 100vh;
+}
+
+.overallScreen {
+    background-color: #A3C1AD;
+    font-family: Garamond, serif;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 600px;
+    border: #000000 solid 4px;
+
+
+    /* border: #041E42 solid 4px; */
+}
+
+.userVisual{
+    border: #000000  solid 2px;
+    margin: 5px;
+    margin-top: 40px;
+    padding: 20px 5px 5px 200px;
+    display: flex;
+    align-items: stretch;
+    width: 200px;
+    height: 50px;
+}
+.allButton {
+    border: solid 2px #000000;
+    width: 352px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.buttons {
+    border: #000000 solid 2px;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.numbers {
+    background-color: #073980;
+}
+.buttons:hover {
+    opacity: 0.9;
+    background-color: #6082B6;
+}
+.operator {
+    background-color: #2c3968;
+}
