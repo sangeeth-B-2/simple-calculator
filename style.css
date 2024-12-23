@@ -25,8 +25,7 @@ body {
 
 .userVisual{
     border: #000000  solid 2px;
-    margin: 5px;
-    margin-top: 40px;
+    margin: 40px 5px 20px 5px;
     padding: 20px 5px 5px 200px;
     display: flex;
     align-items: stretch;
